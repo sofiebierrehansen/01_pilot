@@ -89,6 +89,10 @@ footer {
   color: rgb(3, 97, 3);
 }
 
+#fourth_section {
+  margin-left: 40px;
+}
+
 @media (min-width: 600px) {
   h1 {
     font-size: 8rem;
@@ -147,6 +151,33 @@ footer {
     color: rgb(3, 97, 3);
     margin: 40px;
   }
+
+  #fourth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 40px;
+  }
+
+  /* #overordnet {
+    margin-left: 40px;
+    margin-top: 20px;
+    grid-column: 1/2;
+    grid-row: 1/1;
+  }
+
+  #first {
+    margin-left: 40px;
+    margin-top: 20px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  #second {
+    margin-left: 40px;
+    margin-top: 20px;
+    grid-column: 2/2;
+    grid-row: 3/3;
+  } */
 }
 
 @media (min-width: 500px) {
